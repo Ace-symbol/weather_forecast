@@ -3,7 +3,7 @@ import axios from 'axios';
 // OpenWeatherMap API URL和密钥
 // 注意：您需要注册OpenWeatherMap账户并获取自己的API密钥
 // 注册网址：https://home.openweathermap.org/users/sign_up
-const API_KEY = '5e5b5132c80fcdf9afa022d25f1beb27'; // 请替换为您的有效API密钥
+const API_KEY = 'API_KEY'; // 请替换为您的有效API密钥
 const API_BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 // 接口定义
