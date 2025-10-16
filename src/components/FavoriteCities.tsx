@@ -4,7 +4,7 @@ import {
   TemperatureText, 
   WeatherDescription
 } from './styled/StyledComponents';
-import { getWeatherByCity } from '../services/weatherService';
+import { WeatherData, getWeatherByCity } from '../services/weatherService';
 import { useFavoriteCitiesStore } from '../store/favoriteCitiesStore';
 
 interface FavoriteCitiesProps {

@@ -113,16 +113,13 @@ const WeatherInfo: React.FC<WeatherInfoProps> = ({ weatherData, onBackToHome, ci
             padding: '0.5rem 1rem',
             background: isFavorite ? '#ff6b6b' : '#51cf66',
             color: 'white',
-            border: '2px solid white',
+            border: 'none',
             borderRadius: '4px',
             cursor: 'pointer',
             fontSize: '0.9rem',
             display: 'flex',
             alignItems: 'center',
-            gap: '0.5rem',
-            fontWeight: 'bold',
-            boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
-            zIndex: 10
+            gap: '0.5rem'
           }}
         >
           {isFavorite ? '❤️ 已收藏' : '🤍 收藏'}
